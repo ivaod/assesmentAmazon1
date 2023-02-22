@@ -54,7 +54,7 @@ public class AmazonLogin {
 
 
         //BrowserUtils.sleep(2);
-        amazonPage.emailOrNumberToSignIn.sendKeys("iva_orlinova@yahoo.com");
+        amazonPage.emailOrNumberToSignIn.sendKeys("enter valid username or phone number");
 
     }
 
@@ -68,7 +68,7 @@ public class AmazonLogin {
     @When("User enter password")
     public void user_enter_password() {
 
-        amazonPage.passwordButton.sendKeys("Happyhappy23@");
+        amazonPage.passwordButton.sendKeys("enter valid password");
 
     }
 

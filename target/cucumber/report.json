@@ -3,7 +3,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2023-02-22T15:01:21.771Z",
+        "start_timestamp": "2023-02-22T16:23:52.247Z",
         "line": 4,
         "name": "Amazon webpage title",
         "description": "",
@@ -13,8 +13,9 @@
         "steps": [
           {
             "result": {
-              "duration": 4783000000,
-              "status": "passed"
+              "error_message": "java.lang.NullPointerException\r\n\tat com.assesment.step_definitions.AmazonLogin.user_is_on(AmazonLogin.java:21)\r\n\tat ✽.user is on \"https://www.amazon.com\"(file:///C:/Users/15717/IdeaProjects/assesmentAmazon/src/test/resources/features/amazon.feature:6)\r\n",
+              "duration": 6000000,
+              "status": "failed"
             },
             "line": 6,
             "name": "user is on \"https://www.amazon.com\"",
@@ -31,8 +32,7 @@
           },
           {
             "result": {
-              "duration": 79000000,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 7,
             "name": "Amazon title page should be \"Amazon.com. Spend less. Smile more.\"",
@@ -66,7 +66,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2023-02-22T15:01:26.713Z",
+        "start_timestamp": "2023-02-22T16:23:52.333Z",
         "line": 3,
         "name": "User can click on Sign in button",
         "description": "",
@@ -76,8 +76,9 @@
         "steps": [
           {
             "result": {
-              "duration": 359000000,
-              "status": "passed"
+              "error_message": "java.lang.NullPointerException\r\n\tat java.util.Objects.requireNonNull(Objects.java:203)\r\n\tat org.openqa.selenium.interactions.Actions.\u003cinit\u003e(Actions.java:65)\r\n\tat com.assesment.step_definitions.AmazonLogin.user_hoover_on_hello_sign_in_section(AmazonLogin.java:40)\r\n\tat ✽.User hoover on Hello, sign in section(file:///C:/Users/15717/IdeaProjects/assesmentAmazon/src/test/resources/features/login.feature:4)\r\n",
+              "duration": 27000000,
+              "status": "failed"
             },
             "line": 4,
             "name": "User hoover on Hello, sign in section",
@@ -88,8 +89,7 @@
           },
           {
             "result": {
-              "duration": 574000000,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 5,
             "name": "User can click on Sign in button",
@@ -100,8 +100,7 @@
           },
           {
             "result": {
-              "duration": 123000000,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 6,
             "name": "User enters email or phone number",
@@ -112,8 +111,7 @@
           },
           {
             "result": {
-              "duration": 979000000,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 7,
             "name": "User can click Continue button",
@@ -124,8 +122,7 @@
           },
           {
             "result": {
-              "duration": 105000000,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 8,
             "name": "User enter password",
@@ -136,8 +133,7 @@
           },
           {
             "result": {
-              "duration": 143000000,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 9,
             "name": "User can click on Sign(Submit) button",
