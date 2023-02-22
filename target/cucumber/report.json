@@ -1,0 +1,164 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-02-22T15:01:21.771Z",
+        "line": 4,
+        "name": "Amazon webpage title",
+        "description": "",
+        "id": "amazon-webpage;amazon-webpage-title",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4783000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is on \"https://www.amazon.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.amazon.com\"",
+                  "offset": 11
+                }
+              ],
+              "location": "com.assesment.step_definitions.AmazonLogin.user_is_on(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 79000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Amazon title page should be \"Amazon.com. Spend less. Smile more.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Amazon.com. Spend less. Smile more.\"",
+                  "offset": 28
+                }
+              ],
+              "location": "com.assesment.step_definitions.AmazonLogin.amazon_title_page_should_be(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Amazon webpage",
+    "description": "",
+    "id": "amazon-webpage",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/amazon.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-02-22T15:01:26.713Z",
+        "line": 3,
+        "name": "User can click on Sign in button",
+        "description": "",
+        "id": "sign-in-button;user-can-click-on-sign-in-button",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 359000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User hoover on Hello, sign in section",
+            "match": {
+              "location": "com.assesment.step_definitions.AmazonLogin.user_hoover_on_hello_sign_in_section()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 574000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User can click on Sign in button",
+            "match": {
+              "location": "com.assesment.step_definitions.AmazonLogin.user_can_click_on_sign_in_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 123000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enters email or phone number",
+            "match": {
+              "location": "com.assesment.step_definitions.AmazonLogin.user_enters_email_or_phone_number()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 979000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User can click Continue button",
+            "match": {
+              "location": "com.assesment.step_definitions.AmazonLogin.user_can_click_continue_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 105000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User enter password",
+            "match": {
+              "location": "com.assesment.step_definitions.AmazonLogin.user_enter_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 143000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User can click on Sign(Submit) button",
+            "match": {
+              "location": "com.assesment.step_definitions.AmazonLogin.user_can_click_on_sign_submit_button()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Sign in button",
+    "description": "",
+    "id": "sign-in-button",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/login.feature",
+    "tags": []
+  }
+]
