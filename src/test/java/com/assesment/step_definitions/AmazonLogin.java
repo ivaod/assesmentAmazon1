@@ -54,7 +54,7 @@ public class AmazonLogin {
 
 
         //BrowserUtils.sleep(2);
-        amazonPage.emailOrNumberToSignIn.sendKeys("enter valid username or phone number");
+        amazonPage.emailOrNumberToSignIn.sendKeys("enter valid email or phone number");
 
     }
 

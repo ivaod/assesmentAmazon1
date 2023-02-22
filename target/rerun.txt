@@ -1,2 +1,0 @@
-file:src/test/resources/features/login.feature:3
-file:src/test/resources/features/amazon.feature:4
